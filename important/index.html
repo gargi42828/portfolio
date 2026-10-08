@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gargi Verma — Machine Learning Developer Portfolio">
+  <title>Gargi Verma | ML & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="logo" href="#home">GV<span>.</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+      <a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">MACHINE LEARNING • NLP • AI</p>
+        <h1>Building intelligent<br><span>solutions with data.</span></h1>
+        <p class="lead">Hi, I'm <b>Gargi Verma</b>, a Computer Science student and Machine Learning Developer focused on NLP, computer vision, data quality, and practical AI systems.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore Projects ↗</a>
+          <a class="btn ghost" href="Gargi_Verma_Resume_M.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="socials">
+          <a href="https://linkedin.com/in/gargi-verma-7a3945288" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com/gargi42828" target="_blank">GitHub ↗</a>
+          <a href="mailto:gargiverma9030@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="avatar-wrap"><img src="girl-avatar.png" alt="Gargi Verma AI avatar"></div>
+        <div class="orb"></div>
+        <div class="orbit o1"></div><div class="orbit o2"></div>
+        <div class="code-card">
+          <span>01</span><span>AI_MODEL</span><span>ACCURACY</span>
+          <strong>96%</strong>
+          <small>validation score</small>
+        </div>
+        <div class="float-card">Python<br><b>ML / NLP</b></div>
+      </div>
+      <aside class="voice-assistant" id="voiceAssistant">
+        <div class="assistant-head">
+          <div class="mini-avatar"><img src="girl-avatar.png" alt=""></div>
+          <div><b>Gargi's AI Assistant</b><small>Voice-enabled portfolio</small></div>
+          <button id="voiceClose" aria-label="Close">×</button>
+        </div>
+        <p id="voiceStatus">Hi! Ask me about Gargi's skills, projects, or experience.</p>
+        <div class="voice-actions">
+          <button class="voice-main" id="speakBtn">🎙 Speak to me</button>
+          <button class="voice-stop" id="stopBtn">Stop</button>
+        </div>
+        <div class="voice-prompts">
+          <button data-q="Tell me about Gargi's projects">Projects</button>
+          <button data-q="What are Gargi's skills?">Skills</button>
+          <button data-q="What is Gargi's experience?">Experience</button>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section split">
+      <div class="section-title"><span>01</span><h2>About me</h2></div>
+      <div class="about-text">
+        <p class="big">I turn raw data into <em>useful intelligence.</em></p>
+        <p>Detail-oriented Computer Science student with hands-on experience in text preprocessing, NLP classification, model evaluation, data validation and deployment. I enjoy solving practical problems with clean pipelines and measurable results.</p>
+        <div class="facts"><div><b>8.19</b><span>CGPA</span></div><div><b>96%</b><span>Best validation accuracy</span></div><div><b>90%</b><span>NLP accuracy</span></div></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-title"><span>02</span><h2>Experience</h2></div>
+      <div class="timeline">
+        <article class="timeline-card">
+          <div><span class="tag">MAY 2026 — AUG 2026</span><h3>Machine Learning Developer</h3><p class="company">Tradeking · Varanasi, Uttar Pradesh</p></div>
+          <ul>
+            <li>Built and automated data ingestion pipelines across structured and unstructured sources.</li>
+            <li>Trained, fine-tuned and benchmarked predictive models across business initiatives.</li>
+            <li>Standardized validation metrics and error-handling routines for reliable analytics.</li>
+            <li>Packaged models with REST APIs and Docker for production handoff.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-title"><span>03</span><h2>Selected projects</h2></div>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-num">01</div><div class="project-icon">🛡</div>
+          <p class="tag">CAPSTONE • AI SECURITY</p><h3>CyberShield AI</h3>
+          <p>An AI-powered cybersecurity platform combining threat detection, authentication, dashboards, APIs, SQL and deployable ML services.</p>
+          <div class="chips"><span>Python</span><span>FastAPI</span><span>ML</span><span>SQL</span><span>Docker</span></div>
+          <span class="project-link">Featured project</span>
+        </article>
+        <article class="project">
+          <div class="project-num">02</div><div class="project-icon">📰</div>
+          <p class="tag">NLP • 2025</p><h3>Fake News Detection</h3>
+          <p>Text classification pipeline using tokenization, stop-word removal and TF-IDF with Logistic Regression and Naive Bayes.</p>
+          <div class="metric"><b>90%</b><span>classification accuracy</span></div>
+          <div class="chips"><span>Python</span><span>NLP</span><span>TF-IDF</span><span>Flask</span></div>
+        </article>
+        <article class="project">
+          <div class="project-num">03</div><div class="project-icon">🌱</div>
+          <p class="tag">COMPUTER VISION • 2025</p><h3>Plant Disease Detection</h3>
+          <p>Multi-class leaf-image classifier using EfficientNetB4 transfer learning, preprocessing, augmentation and fine-tuning.</p>
+          <div class="metric"><b>96%</b><span>validation accuracy</span></div>
+          <div class="chips"><span>TensorFlow</span><span>Keras</span><span>EfficientNetB4</span><span>Streamlit</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-title"><span>04</span><h2>Technical toolkit</h2></div>
+      <div class="skills-grid">
+        <div class="skill-card"><span>01</span><h3>AI & Machine Learning</h3><p>TensorFlow · PyTorch · Keras · Scikit-learn · Transfer Learning · Computer Vision · LLM & Agentic AI Fundamentals</p></div>
+        <div class="skill-card"><span>02</span><h3>NLP & Data</h3><p>Tokenization · Stop-word removal · TF-IDF · NLTK · Feature Engineering · Data Cleaning · Validation · Model Evaluation</p></div>
+        <div class="skill-card"><span>03</span><h3>Programming</h3><p>Python · C++ · SQL · Pandas · NumPy · Flask · Streamlit · REST APIs</p></div>
+        <div class="skill-card"><span>04</span><h3>Engineering</h3><p>Git · Docker · Automation Pipelines · API Integration · Deployment workflows</p></div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-title"><span>05</span><h2>Achievements</h2></div>
+      <div class="achievement-list">
+        <div><b>01</b><h3>Johns Hopkins University Health Hackathon</h3><p>Semifinalist · USA · 5-member team</p></div>
+        <div><b>02</b><h3>Adobe University Hackathon 2026</h3><p>Semifinalist · Nationwide competition · 3-member team</p></div>
+        <div><b>03</b><h3>Gold Elite — Marketing Analytics</h3><p>NPTEL certification</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">06 • LET'S CONNECT</p>
+      <h2>Have a role that needs<br><span>an AI problem-solver?</span></h2>
+      <a class="contact-email" href="mailto:gargiverma9030@gmail.com">gargiverma9030@gmail.com ↗</a>
+      <div class="footer-links"><a href="https://linkedin.com/in/gargi-verma-7a3945288" target="_blank">LinkedIn</a><a href="https://github.com/gargi42828" target="_blank">GitHub</a></div>
+      <small>© 2026 Gargi Verma · Machine Learning & AI</small>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
